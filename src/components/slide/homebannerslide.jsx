@@ -7,6 +7,8 @@ import 'swiper/css/scrollbar';
 import img1 from "../../assets/japanlogo.jpg"
 
 export default function Homepagbanner() {
+
+
     return (
         <div className="swiper-container" style={{ width: '80%', margin: '0 auto', overflow: 'hidden' }}>
             <Swiper
