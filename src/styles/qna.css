@@ -1,0 +1,53 @@
+/* qna.css */
+.qna-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6; 
+  }
+  
+  .qna-box {
+    width: 100%;
+    max-width: 640px; 
+    background: white;
+    padding: 32px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  
+  .qna-title {
+    text-align: left;
+    font-size: 24px; 
+    font-weight: bold;
+    margin-bottom: 24px; 
+  }
+  
+  .qna-table {
+    width: 100%;
+    border-collapse: collapse; /*이중 테두리*/
+    border: 1px solid #d1d5db; 
+  }
+  
+  .qna-table th{
+    text-align: left;
+  }
+  .qna-table td {
+    border: 1px solid #d1d5db;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .qna-table thead {
+    background-color: #f3f4f6;
+  }
+  
+  .qna-table tbody tr:hover {
+    background-color: #b9cbde; 
+    cursor: pointer;
+  }
+  
+  .qna-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
