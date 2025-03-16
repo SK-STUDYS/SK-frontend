@@ -1,0 +1,28 @@
+
+/* 전체 컨테이너 설정 */
+.app-container {
+  display: flex;
+  justify-content: space-between; /* 메뉴박스와 보드를 양옆에 배치 */
+  align-items: center; /* 세로로 중앙 정렬 */
+  height: 100vh; /* 화면 높이를 100%로 설정 */
+  padding: 0 20px; /* 왼쪽, 오른쪽에 약간의 여백 추가 */
+}
+
+/* 메뉴박스를 왼쪽에 고정 */
+.menu-box {
+  position: fixed; /* 고정 위치 */
+  top: 50%; /* 화면 중간에 위치 */
+  left: 20px; /* 왼쪽에서 20px 떨어지게 설정 */
+  transform: translateY(-50%); /* 정확히 중앙에 위치하도록 설정 */
+  width: 200px; /* 메뉴박스 너비 설정 */
+  background-color: #f4f4f4; /* 배경 색 */
+  padding: 10px;
+}
+
+/* 보드 컴포넌트를 오른쪽에 배치 */
+.board-container {
+  margin-left: 250px; /* 메뉴박스 너비 만큼 왼쪽에 여백 추가 */
+  width: calc(70%); /* 메뉴박스 너비를 제외한 나머지 공간 차지 */
+  padding: 20px;
+  background-color: #f9f9f9; /* 보드 영역 배경 색 */
+}
