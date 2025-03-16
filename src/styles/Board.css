@@ -1,0 +1,26 @@
+table {
+    table-layout: fixed;
+    width: 100%;  /* 테이블 너비를 100%로 설정 */
+  }
+  
+  th, td {
+    padding: 12px;  /* 셀에 패딩 추가 */
+    text-align: center;
+  }
+  
+  각 열 너비 설정
+  th:nth-child(1), td:nth-child(1) {
+    width: 4%;
+  }
+  
+  th:nth-child(2), td:nth-child(2) {
+    width: 40%;
+  }
+  
+  th:nth-child(3), td:nth-child(3) {
+    width: 5%;
+  }
+  
+  th:nth-child(4), td:nth-child(4) {
+    width: 10%;
+  }
